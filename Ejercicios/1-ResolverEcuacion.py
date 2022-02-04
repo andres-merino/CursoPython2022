@@ -9,7 +9,7 @@ a = int(a)
 b = int(b)
 c = int(c)
 # Cálculo de soluciones
-x1 = (-b+(4*a*c-b**a)**(1/2))/(2*a)
-x2 = (-b-(4*a*c-b**a)**(1/2))/(2*a)
+x1 = (-b+(b**2-4*a*c)**(1/2))/(2*a)
+x2 = (-b-(b**2-4*a*c)**(1/2))/(2*a)
 # Impresión de soluciones
 print("Las respuestas son:", x1, "y", x2)
